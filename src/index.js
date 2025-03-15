@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Controlled_comp from './controlled_comp';
+import Uncontrolled_comp from './uncontrolled_comp'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    
     <Controlled_comp />
+    <Uncontrolled_comp />
+
   </React.StrictMode>
 );
 
