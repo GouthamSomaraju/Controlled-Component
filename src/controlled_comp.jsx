@@ -24,6 +24,7 @@ export default class Controlled_comp extends Component{
     render(){
         return(
             <div>
+                <h1>Controlled Component</h1>
                 <input type="text" name="name" value={this.state.name} onChange={this.handleChange} placeholder="name"/>
                 <input type="email" name="email" value={this.state.email} onChange={this.handleChange} placeholder="email"/>
                 <input type="password" name="password" id="" value={this.state.password} onChange={this.state.password} placeholder="password" />

@@ -23,6 +23,7 @@ export default class Uncontrolled_comp extends React.Component {
     render() {
         return (
             <div>
+                <h1>Uncontrolled Component</h1>
                 <form onSubmit={this.handleSubmit}>
                 <input type="text" name='name' ref={this.nameRef} defaultValue="name"/>
                 <input type="text" name='email' ref={this.emailRef} defaultValue="email"/>
